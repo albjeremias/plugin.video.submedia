@@ -3,7 +3,7 @@
     <requires>
         <import addon="xbmc.python" version="2.25.0"/>
         <import addon="script.module.routing" version="0.2.0"/>
-
+        <import addon="script.module.parsedom" version="0.9.1"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="main.py">
         <provides>video</provides>
@@ -17,7 +17,7 @@
         <forum></forum>
         <website>sub.media</website>
         <email>ajeremias@disroot.org</email>
-        <source></source>
+        <source>https://github.com/albjeremias/plugin.video.submedia</source>
         <news></news>
         <disclaimer></disclaimer>
         <assets>
