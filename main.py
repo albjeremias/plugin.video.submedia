@@ -66,6 +66,11 @@ def index():
     addDirectoryItem(plugin.handle, plugin.url_for(show_category, "submedia-films"), ListItem("Submedia Films"), True)
     addDirectoryItem(plugin.handle, plugin.url_for(show_category, "featured-content"), ListItem("Featured Content"), True)
     addDirectoryItem(plugin.handle, plugin.url_for(show_category, "collaborations"), ListItem("Collaborations"), True)
+    
+    addDirectoryItem(plugin.handle, plugin.url_for(show_category, "podcasts"), ListItem("Podcasts"), True)
+    addDirectoryItem(plugin.handle, plugin.url_for(show_category, "music"), ListItem("Music"), True)
+    addDirectoryItem(plugin.handle, plugin.url_for(show_category, "films"), ListItem("Films"), True)
+    addDirectoryItem(plugin.handle, plugin.url_for(show_category, "indigenous-resistnace"), ListItem("Indigenous Resistance"), True)
     endOfDirectory(plugin.handle)
 
 @plugin.route('/category/<category_id>')
